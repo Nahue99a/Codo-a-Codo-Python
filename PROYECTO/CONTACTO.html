@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="STYLESHEET" href="./ESTILOSCONTACTO.CSS">
+    <title>WOOFRIENDLY</title>
+    <link rel="shortcut icon"
+        href="./IMAGENES LOGOS/logos/Beige_Black_Simple_Pet_Shop_Logo__1_-removebg-preview (2).png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Trocchi&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Raleway:wght@200&family=Trocchi&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="STYLESHEET" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+</head>
+
+<div class="contenedor-principal">
+    <header class="contenedor-header">
+        <a href="/PROYECTO/INICIO.html" id="iconoInicio" ><img src="./IMAGENES LOGOS/logos/SIN FONDO/6-removebg-preview.png"></a>
+
+        <div>
+        <a href="/PROYECTO/INICIO.html" id="linkInicio"><h1>WOOFRIENDLY</h1></a>
+        <h5>Guia petfriendly</p>
+    </div>
+
+        <nav class="menu">
+            <ul type="none">
+                <li><a href="/PROYECTO/INICIO.html">INICIO</a></li>
+                <li><a href="/PROYECTO/QUIENESSOMOS.html">QUIENES SOMOS</a></li>
+                <li><a href="/PROYECTO/RECOMENDACIONES.html">RECOMENDACIONES</a></li>
+                <li><a href="/PROYECTO/NOTICIAS.html">NOTICIAS</a></li>
+                <li><a href="/PROYECTO/CONTACTO.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <body>
+        <div class="CONTENIDO-PAGINA">
+
+            <div class="fila1">
+                <div class="imagen1">
+                    <p>CONTACTO</p>
+                    <img src="./IMAGENES LOGOS/CONTACTO-FORMULARIO.jpg">
+                </div>
+                <div class="text1">
+                    SI DESEAS PONERTE EN CONTACTO CON NOSOTROS PARA HACERNOS CUALQUIER RECOMENDACION, TE PEDIMOS QUE
+                    LLENES
+                    EL
+                    FORMULARIO QUE SE ENCUENTRA EN LA PARTE DE ABAJO, ESO NOS AYUDARA A SEGUIR CRECIENDO Y MEJORANDO
+                    NUESTRA
+                    ESPACIO. TAMBIEN TE INVITAMOS A SEGUIRNOS EN NUESTRAS REDES SOCIALES. <br>
+
+                    GRACIAS POR SER PARTE DE ESTA HERMOSA COMUNIDAD.
+                </div>
+            </div>
+
+
+            <div class="fila2">
+                <div class="formulario">
+                    <b>FORMULARIO</b>
+                    <form name="formulariocontacto">
+                        <ul>
+                            <div class="form-nomb">
+                                <label for="nombre">1. Nombre: </label>
+                                <input type="text" name="nombre" maxlength="30" id="nombre" size="30" placeholder="Escriba su nombre completo"  required>
+                                <i class="fa-solid fa-circle-xmark" style="color: #ff0000;"></i>
+                            </div>
+                            <br><br>
+                            <div class="form-ape">
+                                <label for="apellido">2. Apellido: </label>
+                                <input type="text" name="apellido" maxlength="30" id="apellido" size="30" placeholder="Escriba su apellido" required>
+                                <i class="fa-solid fa-circle-xmark" style="color: #ff0000;"></i>
+                            </div>
+                            <br><br>
+                            <div class="form-mail">
+                                <label for="correo">3. Correo: </label>
+                                <input type="email" name="correo" maxlength="30" id="correo" size="30" placeholder="ejemplo@pet.com" required>
+                                <i class="fa-solid fa-circle-xmark" style="color: #ff0000;"></i>
+                            </div>
+                            <br><br>
+
+                            <label>4. Como supiste de nosotros:</label>
+                            <br><br>
+                            <input type="radio" name="descubrir" id="opc1">
+                            <label for="opc1">Instagram</label><br>
+                            <input type="radio" name="descubrir" id="opc2">
+                            <label for="opc2">Twitter</label> <br>
+                            <input type="radio" name="descubrir" id="opc3">
+                            <label for="opc2">Facebook</label> <br>
+                            <input type="radio" name="descubrir" id="opc4">
+                            <label for="opc3">Recomendacion de un Amigo(a)</label> <br>
+                            <input type="radio" name="descubrir" id="opc5">
+                            <label for="opc4">Google</label>
+
+
+                            <br><br>
+                            <label for="aporte">5. Que deseas aportar a la comunidad:</label>
+                            <select name="aporte" id="aporte">
+                                <option value="Elegir">Elegir opcion
+                                <option value="Recomendacion Gastronomica">Recomendacion Gastronomica
+                                <option value="Recomendacion de Producto"> Recomendacion de Producto
+                                <option value="Lugar"> Evento o Jornada
+                                <option value="Otro"> Otro
+                            </select>
+                            <br><br>
+                            <label for="info">6. Indica la informacion completa de tu recomendacion: </label>
+                            <br>
+                            <textarea name="info" id="info" cols="60" rows="10" placeholder="Introduzca su consulta/comentario." required></textarea>
+                            <br>
+
+                            <div class="form-mensaje">
+                                <p><i class="fa-solid fa-triangle-exclamation" style="color: #963a8f;"></i> ERROR: Por
+                                    favor rellenar el formulario correctamente</p>
+
+                            </div>
+                            <input type="submit" id="b1" value="Enviar" onclick="ValidarEnviar()">
+                            <input type="reset" id="b2" value="Borrar">
+                    </form>
+                </div>
+                <div class="imagen2">
+                    <img src="./IMAGENES LOGOS/DOS PERRITOS.jpg">
+                </div>
+
+            </div>
+
+        </div>
+
+        
+        <footer class="footer-1">
+
+            <div id="iconoFooter"><img src="/PROYECTO/IMAGENES LOGOS/logos/SIN FONDO/6-removebg-preview.png"></div>
+    
+            <div class="contenedor-redes">
+    
+                <div class="iconos-redes">
+                    <a href="#"><i class="fa-solid fa-square-envelope" id="email"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-whatsapp" id="whatsapp"></i></a>
+                    <a href="https://www.instagram.com/woofriendly.11/"><i class="fa-brands fa-square-instagram" id="instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-x-twitter" id="twitter"></i></a>
+                </div>
+            </div>
+            <div class="mensaje">
+                <p>SE PARTE DEL CAMBIO, HAGAMOS NUESTRA CIUDAD PETFRIENDLY</p>
+            </div>
+    
+        </footer>
+
+</div>
+
+<script src="./validacion.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,405 @@
+body {
+    background-color:  #963A8F;
+    margin: 0%;
+}
+
+/*------Estilos para el menu------------*/
+
+/*------Estilos para el menu------------*/
+
+.menu ul li {
+    display: inline-flex;
+    padding: 10px;
+    margin-right: 30px;
+    justify-content: space-evenly;
+    
+}
+
+.menu ul li a {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #963A8F;
+    font-weight: bolder;
+}
+
+.menu ul li a:hover {
+    background-color: #963A8F;
+    color: #ffffff;
+    font-weight: bold; 
+    border-radius: 5px;
+    transition: transform .2s;
+    transform: scale(1.3);
+    
+}
+
+
+/*------Estilos para el header---------*/
+
+
+.contenedor-header nav {
+    grid-area: barra-nav;
+    background-color: #C1FF72;
+
+    
+}
+
+.contenedor-header img {
+    height: 100%;
+    grid-area: logo1;
+}
+
+
+.contenedor-header h5 {
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    margin: 0px;
+    margin-left: 5%;
+}
+
+.contenedor-header div{
+    grid-area: titulo;
+    padding-right: 65%;
+}
+
+.contenedor-header {
+    display: grid;
+    grid-template: 70px / auto 45% 50%;
+    grid-template-areas: "logo1 titulo barra-nav";
+    background-color: #963A8F;
+    grid-area: contenedor-header;
+    
+}
+
+.contenedor-header h1 {
+    font-family: 'Trocchi', serif;
+    color: #f4a261;
+    margin: 0;
+    
+}
+
+#iconoInicio {
+    width: fit-content;
+}
+#iconoInicio:hover {
+    transition: transform .5s;
+    transform: scale(1.2);
+}
+
+#linkInicio {
+    text-decoration: none;
+    width: fit-content;
+}
+
+/*------Estilos para grilla principal---------*/
+
+.bienvenida p {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 5rem;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 10%;
+}
+
+
+.bienvenida img {
+    width: 100%;
+    height: 700px;
+}
+
+.bienvenida {
+
+    background-color: rgb(224, 240, 240);
+    grid-area: bienvenida;
+}
+
+.INFO-PAGINA {
+    grid-area: info;
+    border-radius: 20px;
+
+      padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0%;
+}
+
+.INFO-PAGINA p {
+    color: #000000;
+    font-family: 'Trocchi', serif;
+    font-size: 1.5rem;
+}
+
+
+.CONTENIDO-EXTRA p {
+    color: #ffffff;
+    font-family: 'Trocchi', serif;
+    font-size: 2rem;
+
+}
+
+.CONTENIDO-EXTRA {
+    grid-area: extra;
+
+    background-color: #963A8F;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0%;
+}
+
+/*----CONTENIDO PAG-----*/
+
+.CONTENIDO-PAGINA {
+    display: grid;
+    grid-template: 400px 600px 600px/ 50% 50%;
+    grid-template-areas: 
+        "c1 c2"
+        "c3 c4"
+        "c5 c6";
+
+    grid-area: cont-pag;
+margin: 0%;
+padding: 0%;
+}
+
+.CONTENIDO-PAGINA h3 {
+    color: white;
+    font-family: 'Trocchi', serif;
+
+}
+
+.CONTENIDO-PAGINA img {
+    height: 150px;
+
+}
+/*-------------------------------------*/
+.CONTENIDO-PAGINA .cuadro1 {
+    grid-area: c1;
+    font-family: 'Trocchi', serif;
+    color:white;
+    background-color: #0F9CD8;
+
+    margin: 0%;
+    padding: 2%;
+}
+
+.cuadro1 div{
+    display: inline-flex;
+    align-items: center;
+}
+/*-------------------------------------*/
+.CONTENIDO-PAGINA .cuadro2 {
+    grid-area: c2;
+    font-family: 'Trocchi', serif;
+    color:#963A8F;
+    background-color: #C3FF73;
+
+    margin: 0%;
+    padding: 2%;
+    display: inline-flex;
+    align-items: center;
+    gap: 3%;
+}
+
+
+.cuadro2 img{
+    height: 300px;
+}
+
+/*-------------------------------------*/
+.CONTENIDO-PAGINA .cuadro3 {
+    grid-area: c3;
+    font-family: 'Trocchi', serif;
+    color:white;
+    background-color:#F1B660;
+  
+    margin: 0%;
+    padding: 3%;
+}
+
+.cuadro3 div{
+    display: inline-flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.cuadro3 img{
+    border-radius: 5px;
+}
+/*-------------------------------------*/
+.CONTENIDO-PAGINA .cuadro4 {
+    grid-area: c4;
+    font-family: 'Trocchi', serif;
+    color:white;
+    background-color: #963A8F;
+ 
+    margin: 0%;
+    padding: 2%;
+
+}
+
+.cuadro4 .imginfo{ height: 480px;}
+
+.cuadro4 div{
+    display: inline-flex;
+    align-items: center;
+    gap: 3%;
+    align-items: center;
+}
+.cuadro4 div img{
+   height: 80px;
+   border-radius: 2px;
+}
+/*-------------------------------------*/
+.CONTENIDO-PAGINA .cuadro5 {
+    grid-area: c5;
+    font-family: 'Trocchi', serif;
+    color:white;
+    background-color: #E1B5DE;
+
+    margin: 0%;
+    padding: 1%;
+
+}
+
+.cuadro5 .imginfo2{ height: 400px;}
+
+.cuadro5 div{
+    display: inline-flex;
+    align-items: center;
+    gap: 3%;
+    align-items: center;
+}
+.cuadro5 div img{
+   height: 80px;
+   border-radius: 2px;
+}
+
+/*-------------------------------------*/
+.CONTENIDO-PAGINA .cuadro6 {
+    grid-area: c6;
+    font-family: 'Trocchi', serif;
+    color:white;
+    background-color: #7B49DF;
+
+    margin: 0%;
+    padding: 1%;
+
+}
+
+.cuadro6 .imginfo3{ height: 400px;}
+
+.cuadro6 div{
+    display: inline-flex;
+    align-items: center;
+    gap: 3%;
+    align-items: center;
+}
+.cuadro6 div img{
+   height: 80px;
+   border-radius: 2px;
+}
+
+/*-------------------------------------*/
+
+.contenedor-principal {
+    display: grid;
+    grid-template: 70px 700px 200px 1600px 150px / 70% 30%;
+    grid-template-areas: "contenedor-header contenedor-header"
+        "bienvenida bienvenida"
+        "info info"
+        "cont-pag cont-pag"
+        "footer footer";
+    padding: 0%;
+    margin: 0%;
+}
+
+
+/*------Estilos  para footer---------*/
+
+
+
+.footer-1 img {
+    height: 145px;
+    padding-right: 65px;
+    margin-left: 15px;
+    margin-top: 10%;
+    COLOR:#963A8F;
+
+
+}
+
+.t1 {
+    color: #f4a261;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30%;
+    background-color:  #963A8F;
+}
+
+.footer-1 {
+    display: flex;
+    justify-content: center;
+
+    grid-area: footer;
+    padding: 0px;
+}
+
+.iconos-redes {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-left: 50%;
+    margin-top: 15%;
+    
+}
+
+.iconos-redes a {
+    font-size: 4rem;
+    color: #ffffff;
+
+}
+
+
+#email:hover {
+    transition: transform .5s;
+    transform: scale(1.3);
+    color: #2d83ec
+}
+
+#whatsapp:hover {
+    transition: transform .5s;
+    transform: scale(1.3);
+    color: #963A8F;
+}
+
+#instagram:hover {
+    transition: transform .5s;
+    transform: scale(1.3);
+    color: #963A8F;
+}
+
+#twitter:hover {
+    transition: transform .5s;
+    transform: scale(1.3);
+    color: #ffffff
+}
+.contenedor-iconos {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.mensaje {
+    text-align: center;
+    COLOR:#ffffff;
+    font-size: 2rem;
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 18%;
+    padding-top: 30px;
+    padding-right: 50px;
+
+}
+
+
+/*----MONITORES GRANDES----*/

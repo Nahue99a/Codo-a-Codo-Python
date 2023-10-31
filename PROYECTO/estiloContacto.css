@@ -1,0 +1,15 @@
+footer {
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    }
+
+.infoContacto {
+    font-size: 30px;
+}
+
+#imagenContacto {
+    width: 200px;
+   
+}
+

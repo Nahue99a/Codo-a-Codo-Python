@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
+.main__containerAPI {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color:#E1B5DE;
+    color:#E5CFF7;
+    padding: 0px 25PX;
+   
+
+}
+
+
+<!-- CAT -->
+
+.main__containerAPI1 {
+    height: 200PX;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+    
+}
+
+.main__containerAPI1 .img--containerAPI1 {
+    width: 350px;
+    height: 350px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+    margin: 10px 0;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,0.3);
+    grid-area: API1;
+    
+}
+
+
+
+
+
+<!-- DOG -->
+
+.main__containerAPI2 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.main__containerAPI2 .img--containerAPI2 {
+    width: 350px;
+    height: 350px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+    margin: 10px 0;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,0.3);
+    grid-area: API2;
+    
+}
+
+
+
+.main__containerAPI{
+display: grid;
+grid-template: repet(1,3)/ 100%;
+grid-template-areas:"API1 API2";
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 412px) {
+
+
+.main__containerAPI1 .img--containerAPI1 {
+    width: 100px;
+    height: 100px; 
+    
+}
+
+
+
+.main__containerAPI2 .img--containerAPI2 {
+    width: 100px;
+    height: 100px; 
+
+    
+}
+
+}
+
+
+
